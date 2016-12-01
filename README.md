@@ -1,1 +1,3 @@
 # Website
+
+For our website, we decided to give it a welcoming and engaging feel. To do this, we used brighter shades of color and a font that isn’t serious enough to scare someone away from the program, but not goofy enough to have it taken as a joke. When thinking of running, we think of a nice, cool morning running with a nice breeze clear blue sky. With this thought in mind, we designed the website primarily with different tints, shades, and tones of periwinkle. We decided to keep the font a darker shade so that it stands out from the other lighter elements and can easily be read and understood.
