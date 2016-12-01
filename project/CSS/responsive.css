@@ -1,0 +1,135 @@
+@media screen and (min-width: 480px) {
+  
+  form {
+    max-width: 480px;
+  }
+  
+  nav a:hover {
+    background-color: #7982c5;
+    text-decoration: none;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  
+  nav {
+    background-color: #919bdd;
+  }
+  
+/*********************
+CONTACT
+*********************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+}  
+
+/*********************
+FOOTER
+*********************/
+
+  .wrap {                                         /*Creating a Sticky Footer for Desktop*/
+   min-height: calc(100vh - 210px);
+  }
+
+@media screen and (min-width: 1024px) {
+ 
+/*********************
+HEADER
+*********************/
+  
+  #logo {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+  }
+    
+  header {
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+/*********************
+NAVIGATION
+*********************/ 
+  
+  nav {
+    margin: 0 auto;
+    font-size: 1.125em;
+    text-align: center;
+    width: 100%;
+  }
+  
+/*********************
+MR. ROE
+*********************/
+  
+  #roe img {
+    float: left;
+    width: 40%;
+    margin: auto;
+  }
+  
+  #roe p {
+    float: right;
+    width: 45%;
+    padding-bottom: 4%;
+    border-bottom: none;
+  }
+  
+  .sugroup {
+    padding: 3%;
+    border-bottom: 2px solid #000;
+  }
+
+  .sugroup:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+/*********************
+LAST DAY
+*********************/
+  
+  .lastday {
+    max-width: 600px;
+  }
+  
+/*********************
+ABOUT/CONTACT
+*********************/
+  
+  .profile-pic {
+    float: right;
+    margin: 0 3% 80px 40px;
+    max-width: 300px;
+  }
+   
+  .aboutpar, .contactpar {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-size: 1.8em;
+  }
+  
+}

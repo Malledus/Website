@@ -1,0 +1,359 @@
+/*********************
+GENERAL 
+*********************/
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.par {                      /*The same formatting is used for all paragraphs*/            
+  font-size: 1.2em;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*********************
+HEADER
+*********************/
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin: 015px 0;
+  padding-top: 10px;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: .8em;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0 0 0 0;
+  font-size: 1.25em;
+}  
+
+/*********************
+NAVIGATION 
+*********************/
+
+nav {
+  text-align: center;
+  line-height: 1.8;
+  padding: 9px 0 9px 0;
+  margin: 20px 0 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px 10px 0 10px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 0px;
+  text-align: center;
+}
+
+nav a {
+  font-weight: 700;
+  padding: 15px 10px;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/********************* 
+FOOTER
+*********************/
+  
+footer {
+  font-size: .75em;
+  text-align: center;
+  clear: both;
+  padding-top: 150px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0 0 0 15px;
+}
+
+/*********************
+HOME
+*********************/
+
+h5 {                            /* I've established h4 as belonging to contact.html which is why the sub-headings in forty.html are h5. Its solely to                                       prevent any sort of mix up in the css */
+  font-size: 1.3em;
+}
+
+/********************* 
+SIGN UP
+*********************/
+
+form, input, input:before, input:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+form {
+  max-width: 500px;
+  max-height: 100%;
+  margin: 0px auto;
+  padding: 0px 20px;
+  background: none;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="teacher"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+select {
+  background: rgba(255,255,255,.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #212436;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+/********************* 
+MR. ROE
+*********************/
+
+#roe {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#roe img {
+  margin: 0;
+  box-shadow: 4px 4px 5px #000;
+}
+
+#roe p {
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 2px solid #000;
+  padding-bottom: 3%
+}
+
+/********************* 
+LAST DAY
+*********************/
+
+.lastday {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto 30px;
+}
+
+/********************* 
+ABOUT 
+*********************/
+
+.profile-pic {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+}
+
+/********************* 
+CONTACT
+*********************/
+
+h4 {                    /* I'm putting this here only due to the fact that h4 only applies to sub-headings in contact.html */
+  font-size: 1.3em;
+  margin-bottom: 4px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #191b29;
+}
+
+.contact-info li.email a {
+  background-image: url('../Images/_Logos/whitemail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../Images/_Logos/Twitter_Social_Icon_White.png');
+  background-size: 25px;
+}
+
+/********************* 
+COLORS                   Trying to keep all coloring in one centralized location for ease of access incase of a color palatte change
+*********************/
+
+body {
+  background-color: #c1c8fa;
+  color: #3c4162;
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  background-color: #97a3f6;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+footer {
+  color: white;
+}
+
+nav {
+  background-color: #919bdd;
+}
+
+nav a, nav a:visited { 
+  color: #191b29;
+}
+
+nav a.selected {
+  color: white;
+}
+
+form h3 {
+  color: #191b29;
+}
+  
+input[type="text"],
+input[type="teacher"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background-color: white;
+  color: #8a97a0;
+}
+
+button {
+  color: #FFF;
+  background-color: #3c4162;
+}
+
+
+
+
+
